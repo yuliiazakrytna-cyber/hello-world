@@ -15,6 +15,17 @@ Et si le geste le plus écologique de votre journée était celui que vous faite
 
 Chaque ménage suisse jette des dizaines de flacons de produit vaisselle en plastique chaque année. La bonne nouvelle, c'est qu'une alternative simple, économique et 100 % efficace existe : le **cake vaisselle**. Dans ce guide complet, on répond à toutes vos questions — ce que c'est, pourquoi c'est mieux, à quel point c'est écologique, comment il est fabriqué et comment l'utiliser au quotidien.
 
+Et pour l'illustrer, on vous présente **notre Cake Vaisselle Les Paillettes Vertes** : un pain vaisselle de **200 g, fabriqué à la main en Suisse**, présenté dans un **pot en verre réutilisable** 🍋.
+
+> **🌿 En un coup d'œil — le Cake Vaisselle Les Paillettes Vertes**
+> - **Format :** 200 g · fabriqué à la main 🇨🇭
+> - **Promesse :** nettoie, dégraisse, fait briller — sans traces ✨
+> - **Rendement :** 1 cake = **jusqu'à 3 bouteilles** de liquide vaisselle
+> - **Composition courte :** tensioactif (Sodium Cocoyl Isethionate), cristaux de soude, acide citrique, eau
+> - **Douceur :** convient aux **peaux sensibles** 🤲
+> - **Emballage :** pot en verre **réutilisable ou recyclable** — 100 % zéro déchet ♻️
+> - 👉 [Découvrir le produit](https://www.lespaillettesvertes.ch/produit/cake-vaisselle/)
+
 ---
 
 ## Qu'est-ce que le cake vaisselle ?
@@ -34,7 +45,7 @@ Un seul cake vaisselle remplace en moyenne **2 à 3 bouteilles** de liquide vais
 Passer au solide n'est pas qu'un geste « tendance ». C'est un choix concret avec des avantages très réels au quotidien.
 
 ### 1. Zéro plastique 🌍
-Pas de flacon, pas de bouchon, pas d'emballage jetable à chaque achat. Le cake vaisselle se vend nu ou dans un emballage en papier compostable. Un geste de moins pour la poubelle, à chaque utilisation.
+Pas de flacon, pas de bouchon, pas d'emballage jetable à chaque achat. Notre Cake Vaisselle est présenté dans un **pot en verre réutilisable ou recyclable** : une fois le cake terminé, le pot vous resservira mille fois. Un geste de moins pour la poubelle, à chaque utilisation. ♻️
 
 ### 2. Plus économique 💰
 Le liquide vaisselle, c'est en grande partie de l'**eau** (souvent plus de 80 %) que vous payez et transportez. Un cake vaisselle est **ultra-concentré** : pas d'eau ajoutée, donc plus de lavages pour votre argent. Sur l'année, un seul bloc remplace plusieurs bouteilles.
@@ -50,7 +61,7 @@ Les formules naturelles, sans détergents pétrochimiques agressifs, respectent 
 
 | Critère | Liquide vaisselle classique | Cake vaisselle |
 | :-- | :-- | :-- |
-| Emballage | Flacon plastique | Nu ou papier compostable |
+| Emballage | Flacon plastique | Pot en verre réutilisable / recyclable |
 | Composition | Majoritairement de l'eau | Concentré, sans eau ajoutée |
 | Durée de vie | 1 bouteille | ≈ 2–3 bouteilles |
 | Transport / poids | Lourd (eau) | Léger |
@@ -73,14 +84,16 @@ C'est sa raison d'être. L'impact se mesure sur tout le cycle de vie :
 
 ## Comment est fabriqué un cake vaisselle ?
 
-Pas de magie, mais un vrai savoir-faire. La fabrication repose sur quelques familles d'ingrédients :
+Pas de magie, mais un vrai savoir-faire. La force d'un bon cake vaisselle, c'est une **composition courte et lisible**. Voici exactement ce que contient le **Cake Vaisselle Les Paillettes Vertes** :
 
-1. **Des tensioactifs d'origine végétale** — ce sont eux qui créent la mousse et décollent le gras. On privilégie ceux issus de sources végétales (par ex. à base de coco) plutôt que pétrochimiques.
-2. **Des agents nettoyants et dégraissants** doux mais efficaces.
-3. **Parfois une argile ou un agent minéral** pour aider à structurer le bloc et renforcer le pouvoir nettoyant.
-4. **Peu ou pas de parfum**, et idéalement aucun colorant.
+- **Tensioactif (Sodium Cocoyl Isethionate)** — issu de la noix de coco, c'est lui qui crée la mousse douce et décolle le gras. Réputé pour sa **douceur**, il convient même aux peaux sensibles.
+- **Cristaux de soude** — un dégraissant naturel redoutable contre les résidus tenaces.
+- **Acide citrique** — pour faire **briller** la vaisselle sans laisser de traces.
+- **Eau** — juste ce qu'il faut pour lier la formule.
 
-Les ingrédients sont mélangés, puis **compactés et moulés** en forme de galette, avant de sécher pour obtenir un bloc dur et durable. Chez Les Paillettes Vertes, cette fabrication se veut **locale, naturelle et cruelty-free** — comme l'ensemble de notre gamme.
+C'est tout. Pas de parfum de synthèse agressif, pas de colorant, pas de liste à rallonge.
+
+Ces ingrédients sont mélangés, puis **compactés et moulés à la main** en forme de galette de **200 g**, avant de sécher pour obtenir un bloc dur et durable. Chez Les Paillettes Vertes, cette fabrication est **artisanale, suisse, naturelle et cruelty-free** — comme l'ensemble de notre gamme.
 
 ---
 
