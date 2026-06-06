@@ -60,6 +60,7 @@ Légère, ne coule pas, passe en cabine : la trousse solide est aussi parfaite *
 
 ## 🧺 La buanderie & le ménage : du naturel partout
 
+- **[La Pierre d'Argile](https://www.lespaillettesvertes.ch/produit/pierre-dargile/)** — LE nettoyant multi-surfaces à tout faire : robinets, inox, vitrocéramique, carrelage, baignoires, argenterie… Elle nettoie, fait briller et laisse une fine couche protectrice anti-salissures.
 - **La Lessive solide « Ma Petite Lessive »** — une lessive concentrée et zéro déchet pour le linge.
 - **[Les produits de nettoyage universels](https://www.lespaillettesvertes.ch/categorie-produit/produits-menagers/)** pour toute la maison, sans agresser l'air intérieur.
 - **Le Détacheur à la terre de Sommières** — détache et dégraisse naturellement le textile et les surfaces.
