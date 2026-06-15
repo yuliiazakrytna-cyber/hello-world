@@ -11,7 +11,7 @@
 ## 🎨 Global motion style guide
 - **Recurring transition motif:** an envelope / card-flip wipe between scenes (ties to the "fits in an envelope" idea).
 - **Kinetic typography:** text pops in on the beat; key words scale / colour-shift (sage green ↔ charcoal). The four pillar labels (VISIBILITÉ / ÉCOLOGIE / FINANCIER / SOCIAL) stamp in as section markers.
-- **Animated counters / swatches:** "300×" counter, a price tag ("dès 2,77 CHF"), and a colour-swatch fan for "plusieurs couleurs".
+- **Animated counters / swatches:** an odometer spinning to "1 000 000 000" (opening), a "300×" counter, a price tag ("dès 2,77 CHF"), and a colour-swatch fan for "plusieurs couleurs".
 - **Parallax + slow push-in** on product shots so static footage feels alive.
 - **Particles:** subtle floating leaves / paillettes in transitions.
 - **Pace:** clips 2–2.5s, snappy cuts synced to music. Bright, premium, hopeful. B2B tone.
@@ -20,19 +20,19 @@
 
 ## 📋 Master shot list (with motion)
 
-### Scene 1 — 0–6s — The forgotten goodies (PROBLEM)
-- **Footage:** A drawer / box overflowing with unused promo pens, mugs, gadgets (generic/fictional — no real competitor logos).
-- **Motion:** Time-lapse of goodies piling up; one pen rolls to the back of a drawer; hero text SLAMS in with a tiny shake.
-- **VO (FR):** « Stylos, mugs, gadgets… La plupart des cadeaux d'entreprise finissent oubliés dans un tiroir. »
-- **Texte:** **La plupart des goodies finissent oubliés 🗑️**
-- *(EN: Pens, mugs, gadgets… most corporate gifts end up forgotten in a drawer.)*
+### Scene 1 — 0–5s — The bin of cards (PROBLEM hook)
+- **Footage:** A bin filling / overflowing with mismatched greeting cards (time-lapse). Cards must be generic/fictional — no real competitor logos.
+- **Motion:** Time-lapse speed-ramp; cards tumble with physics; an odometer counter spins up to "1 000 000 000"; on overflow, hero text SLAMS in with a tiny shake.
+- **VO (FR):** « Chaque année, près d'un milliard de cartes finissent à la poubelle. »
+- **Texte:** **1 MILLIARD de cartes jetées chaque année 🗑️**
+- *(EN: Every year, nearly a billion cards end up in the bin.)* — *figure widely reported (mainly UK); see notes.*
 
-### Scene 2 — 6–12s — The pivot (the moto)
-- **Footage:** Calm shot, a Carré in hand / on a kitchen counter, in use.
-- **Motion:** Whip-pan out of the drawer → the Carré; the moto types on; cloth fades up with a soft glow.
-- **VO (FR):** « Et s'il existait un format mini, à l'impact maximal — un cadeau qu'on utilise vraiment, presque tous les jours, toute l'année ? »
+### Scene 2 — 5–11s — Widen + the moto
+- **Footage:** Whip to a drawer of unused promo goodies (pens, mugs, gadgets) → then a Carré in hand, in use.
+- **Motion:** Cards → goodies pile → Carré; the moto types on; cloth fades up with a soft glow.
+- **VO (FR):** « Et les goodies — stylos, mugs, gadgets — finissent, eux, au fond d'un tiroir. Et si, pour un format mini, votre cadeau avait un impact maximal — utilisé presque tous les jours, toute l'année ? »
 - **Texte:** *Un format mini, un impact maximal ✨*
-- *(EN: What if there were a mini format with maximum impact — a gift actually used, nearly every day, all year?)*
+- *(EN: And the goodies — pens, mugs, gadgets — end up at the back of a drawer. What if, in a mini format, your gift had maximum impact — used nearly every day, all year?)*
 
 ### Scene 3 — 12–20s — Meet Le Carré
 - **Footage:** Le Carré in several colours; designs fanned out; a paper banner (bandeau) with a logo/message; a trio pack.
@@ -88,8 +88,8 @@
 ---
 
 ## 🎙️ Voiceover — continuous block (for TTS)
-> Stylos, mugs, gadgets… La plupart des cadeaux d'entreprise finissent oubliés dans un tiroir.
-> Et s'il existait un format mini, à l'impact maximal — un cadeau qu'on utilise vraiment, presque tous les jours, toute l'année ?
+> Chaque année, près d'un milliard de cartes finissent à la poubelle.
+> Et les goodies — stylos, mugs, gadgets — finissent, eux, au fond d'un tiroir. Et si, pour un format mini, votre cadeau avait un impact maximal — utilisé presque tous les jours, toute l'année ?
 > Voici Le Carré : l'essuie-tout lavable conçu à Lausanne, un objet déco personnalisable, disponible en plusieurs couleurs. À l'unité ou en trio, avec un bandeau papier personnalisable pour votre logo et votre message.
 > Visibilité : on l'utilise plusieurs fois par jour, sans cannibalisation — contrairement à un stylo qu'on remplace par n'importe quel autre. Votre marque reste sous les yeux, toute l'année.
 > Écologie : 100% biodégradable, lavable jusqu'à 95 degrés et ultra-absorbant. Il se composte en 24 semaines.
@@ -99,7 +99,7 @@
 > Responsables événementiel, RH, commerces de proximité, agences de communication : Le Carré, le cadeau qui vous rend visible toute l'année. Parlons-en.
 
 ## 📝 On-screen text list (burn in as captions)
-1. La plupart des goodies finissent oubliés 🗑️
+1. 1 MILLIARD de cartes jetées chaque année 🗑️
 2. Un format mini, un impact maximal ✨
 3. Le Carré · conçu à Lausanne · personnalisable · plusieurs couleurs · logo + message sur bandeau
 4. VISIBILITÉ · utilisé tous les jours · sans cannibalisation 👀
@@ -124,7 +124,7 @@ Drawer→Product: whip-pan · Product→Meet: soft glow dissolve · Meet→Visib
 - Music: calm, professional, beat-synced (NOT a trendy Reel sound — this is B2B).
 
 ## 🤖 AI video-generation prompt (English)
-> A dynamic 60s vertical corporate video, sage-green and cream palette, eco-brand, smooth motion-graphics style with kinetic typography. Sequence: a drawer overflowing with unused promo pens and gadgets (time-lapse); whip-pan to a reusable sponge cloth in daily use; the cloth in several colours, a logo stamping onto a paper banner, a trio pack assembling; a montage of the cloth used many times a day with a struck-through pen icon; the cloth in a washing machine, absorbing a spill, then composting with a leaf growing and a "300x" counter; the cloth slipping into an envelope with a postage stamp and a "from CHF 2.77" price tag; pins popping on a map of Switzerland for mailing; a grid of client logos popping in; an end card with a brand logo assembling from particles. Premium, hopeful, beat-synced. No baked-in text.
+> A dynamic 60s vertical corporate video, sage-green and cream palette, eco-brand, smooth motion-graphics style with kinetic typography. Sequence: a bin overflowing with mismatched greeting cards (time-lapse, a counter spinning to one billion); whip-pan to a drawer of unused promo pens and gadgets, then a reusable sponge cloth in daily use; the cloth in several colours, a logo stamping onto a paper banner, a trio pack assembling; a montage of the cloth used many times a day with a struck-through pen icon; the cloth in a washing machine, absorbing a spill, then composting with a leaf growing and a "300x" counter; the cloth slipping into an envelope with a postage stamp and a "from CHF 2.77" price tag; pins popping on a map of Switzerland for mailing; a grid of client logos popping in; an end card with a brand logo assembling from particles. Premium, hopeful, beat-synced. No baked-in text.
 
 ## ✍️ LinkedIn post caption
 > 🟢 Goodies d'entreprise : et s'ils arrêtaient de finir au fond d'un tiroir ?
@@ -151,17 +151,17 @@ Drawer→Product: whip-pan · Product→Meet: soft glow dissolve · Meet→Visib
 
 | Time | Footage | 🎞️ Motion | VO/Texte (FR) |
 |:--|:--|:--|:--|
-| **0–4s** | Drawer of unused promo pens/gadgets | Goodies pile up; hero text slams in | **VO:** « La plupart des cadeaux d'entreprise finissent oubliés dans un tiroir. »<br>**Texte:** **Les goodies finissent oubliés 🗑️** |
+| **0–4s** | Bin overflowing with cards → whip to a drawer of goodies | Odometer to "1 000 000 000"; hero text slams in | **VO:** « Près d'un milliard de cartes jetées chaque année. Et les goodies, eux, finissent au tiroir. »<br>**Texte:** **1 MILLIARD de cartes jetées 🗑️** |
 | **4–9s** | Logo stamping onto the Carré's bandeau; colours fan out | Whip-pan; logo stamp bounce; colour swatches | **VO:** « Un format mini, un impact maximal : Le Carré, conçu à Lausanne, personnalisé à vos couleurs. »<br>**Texte:** *Le Carré · conçu à Lausanne · plusieurs couleurs* |
 | **9–17s** | Daily use montage → wash → envelope | Struck-through pen; "300×" count; envelope seals | **VO:** « Utilisé tous les jours sans cannibalisation, lavable 300 fois, compostable — et assez léger pour passer dans une enveloppe. »<br>**Texte:** *Vu tous les jours · lavable 300× · tient dans une enveloppe ♻️* |
 | **17–22s** | Branded Carrés flat-lay | Pillar labels flash: Visibilité·Écologie·Financier·Social | **VO:** « Visible, écologique, malin — dès 2,77 francs la pièce, et expédié pour vous. »<br>**Texte:** *Visibilité · Écologie · Financier · Social — dès 2,77 CHF/pce* |
 | **22–26s** | Logo + product | Logo assembles; button pulses | **VO:** « Le cadeau qui vous rend visible toute l'année. Parlons-en. »<br>**Texte:** *lespaillettesvertes.ch · Le Carré personnalisable* |
 
 ## 🎙️ Short VO — continuous block
-> La plupart des cadeaux d'entreprise finissent oubliés dans un tiroir. Un format mini, un impact maximal : Le Carré, conçu à Lausanne, personnalisé à vos couleurs. Utilisé tous les jours sans cannibalisation, lavable 300 fois, compostable — et assez léger pour passer dans une enveloppe. Visible, écologique, malin — dès 2,77 francs la pièce, et expédié pour vous. Le cadeau qui vous rend visible toute l'année. Parlons-en.
+> Près d'un milliard de cartes jetées chaque année — et les goodies finissent au tiroir. Un format mini, un impact maximal : Le Carré, conçu à Lausanne, personnalisé à vos couleurs. Utilisé tous les jours sans cannibalisation, lavable 300 fois, compostable — et assez léger pour passer dans une enveloppe. Visible, écologique, malin — dès 2,77 francs la pièce, et expédié pour vous. Le cadeau qui vous rend visible toute l'année. Parlons-en.
 
 ## ✍️ Short caption (feed)
-> 🟢 La plupart des goodies finissent au fond d'un tiroir. Pas Le Carré.
+> 🟢 Près d'un milliard de cartes jetées chaque année — et les goodies finissent au fond d'un tiroir. Pas Le Carré.
 >
 > Un format mini pour une visibilité et un impact maximal : l'essuie-tout lavable conçu à Lausanne, personnalisé à vos couleurs. Utilisé tous les jours, lavable 300×, compostable, et assez léger pour passer dans une enveloppe 🌿 Dès 2,77 CHF/pce HT. Le publipostage est assuré par notre partenaire la Fondation Eben-Hézer.
 >
@@ -193,6 +193,7 @@ Drawer→Product: whip-pan · Product→Meet: soft glow dissolve · Meet→Visib
 - Note: prix **HT** (soumis à TVA); frais de port à charge du client (CGV). Le **publipostage** vers plusieurs destinataires = service partenaire Eben-Hézer (tarif à confirmer).
 
 ### Other notes
+- **Opening stat:** "~1 milliard de cartes jetées chaque année" — widely reported figure (mainly UK greeting-card data), used as an attention hook. On-screen "1 MILLIARD" for impact; VO says "près d'un milliard". Not Swiss-specific — keep it as a hook, then pivot fast to the year-round gift.
 - Fondation Eben-Hézer (Lausanne): foundation supporting people with disabilities; here the **logistics partner** handling the **publipostage**.
 - Positioning: year-round corporate gift (events, HR, client/employee gifts, end-of-year) — not Christmas-specific.
 - Target audience (Amanda's brief): responsables événementiel · départements RH · commerces & entreprises de proximité · agences de communication.
