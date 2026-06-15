@@ -36,8 +36,8 @@
 ### Scene 3 — 12–20s — Meet Le Carré
 - **Footage:** Le Carré in several colours; designs fanned out; a paper banner (bandeau) with a logo/message; a trio pack.
 - **Motion:** Colour-swatch fan animates ("plusieurs couleurs"); logo "stamps" onto the bandeau (stamp bounce + ink ripple); a trio assembles with the paper banner sliding around it.
-- **VO (FR):** « Voici Le Carré : l'essuie-tout lavable, un objet déco personnalisable, disponible en plusieurs couleurs. À l'unité ou en trio, avec un bandeau papier personnalisable pour votre logo et votre message. »
-- **Texte:** *Le Carré · personnalisable · plusieurs couleurs · logo + message sur bandeau*
+- **VO (FR):** « Voici Le Carré : l'essuie-tout lavable conçu à Lausanne, un objet déco personnalisable, disponible en plusieurs couleurs. À l'unité ou en trio, avec un bandeau papier personnalisable pour votre logo et votre message. »
+- **Texte:** *Le Carré · conçu à Lausanne · personnalisable · plusieurs couleurs · logo + message sur bandeau*
 - *(EN: Meet Le Carré: the washable cloth, a customisable décor object in several colours. Single or in a trio, with a customisable paper banner for your logo and message.)*
 
 ### Scene 4 — 20–28s — VISIBILITÉ
@@ -57,9 +57,10 @@
 ### Scene 6 — 35–42s — FINANCIER
 - **Footage:** A Carré slipping into a standard envelope; a postage stamp; light "weightless" feel.
 - **Motion:** Pillar label "FINANCIER"; envelope slides in & seals; a feather/float motion on the Carré to show how light it is.
-- **VO (FR):** « Côté budget : un objet à petit prix, si léger qu'il passe dans une enveloppe — l'envoyer ne coûte presque rien. »
-- **Texte:** *FINANCIER · petit prix · léger · tient dans une enveloppe ✉️*
-- *(EN: On budget: a low-priced item, light enough to fit in an envelope — sending it costs almost nothing.)*
+- **VO (FR):** « Côté budget : dès 2 francs 77 la pièce, et si léger qu'il passe dans une enveloppe — l'envoyer ne coûte presque rien. »
+- **Texte:** *FINANCIER · dès 2,77 CHF/pce (HT) · dès 500 pces · tient dans une enveloppe ✉️*
+- *(EN: On budget: from CHF 2.77/piece, and light enough to fit in an envelope — sending it costs almost nothing.)*
+- *Price note: petit format, 500 pcs, 1 side / 1 colour, excl. VAT (official list 10.10.2024). Confirm current rate with Raphaël.*
 
 ### Scene 7 — 42–48s — SOCIAL
 - **Footage:** Map of Switzerland with pins popping; a partner workshop preparing mailings.
@@ -99,10 +100,10 @@
 ## 📝 On-screen text list (burn in as captions)
 1. La plupart des goodies finissent oubliés 🗑️
 2. Un format mini, un impact maximal ✨
-3. Le Carré · personnalisable · plusieurs couleurs · logo + message sur bandeau
+3. Le Carré · conçu à Lausanne · personnalisable · plusieurs couleurs · logo + message sur bandeau
 4. VISIBILITÉ · utilisé tous les jours · sans cannibalisation 👀
 5. ÉCOLOGIE · lavable en machine 300× · ultra-absorbant · compostable 🌱
-6. FINANCIER · petit prix · léger · tient dans une enveloppe ✉️
+6. FINANCIER · dès 2,77 CHF/pce (HT) · dès 500 pces · tient dans une enveloppe ✉️
 7. SOCIAL · publipostage assuré par la Fondation Eben-Hézer 🤝
 8. « [citation client] » — [Marque]
 9. Le Carré personnalisable → lespaillettesvertes.ch
@@ -128,11 +129,11 @@ Drawer→Product: whip-pan · Product→Meet: soft glow dissolve · Meet→Visib
 > 🟢 Goodies d'entreprise : et s'ils arrêtaient de finir au fond d'un tiroir ?
 >
 > Notre devise : **un format mini pour une visibilité et un impact maximal.**
-> Le Carré, c'est l'essuie-tout lavable personnalisable — votre logo, vos couleurs, votre message sur un bandeau papier 🌿
+> Le Carré, c'est l'essuie-tout lavable **conçu à Lausanne**, personnalisable — votre logo, vos couleurs, votre message sur un bandeau papier 🌿
 >
 > 👀 **VISIBILITÉ** — objet déco personnalisable, plusieurs couleurs ; utilisé plusieurs fois par jour, sans cannibalisation (contrairement à un stylo) ; à l'unité ou en trio avec bandeau papier personnalisable.
-> 🌱 **ÉCOLOGIE** — fabrication écologique, lavable en machine, ultra-absorbant, biodégradable & compostable.
-> 💰 **FINANCIER** — un objet à petit prix, assez léger pour passer dans une enveloppe.
+> 🌱 **ÉCOLOGIE** — 100% biodégradable (70% cellulose de bois FSC + 30% coton GOTS), lavable jusqu'à 95°C / 300 fois, ultra-absorbant, compostable en 24 semaines.
+> 💰 **FINANCIER** — dès 2,77 CHF/pièce HT (dès 500 pièces), assez léger pour passer dans une enveloppe.
 > 🤝 **SOCIAL** — le publipostage est assuré par notre partenaire logistique, la Fondation Eben-Hézer.
 >
 > Pour qui ? Responsables événementiel · départements RH · commerces & entreprises de proximité · agences de communication.
@@ -152,11 +153,11 @@ Drawer→Product: whip-pan · Product→Meet: soft glow dissolve · Meet→Visib
 | **0–4s** | Drawer of unused promo pens/gadgets | Goodies pile up; hero text slams in | **VO:** « La plupart des cadeaux d'entreprise finissent oubliés dans un tiroir. »<br>**Texte:** **Les goodies finissent oubliés 🗑️** |
 | **4–9s** | Logo stamping onto the Carré's bandeau; colours fan out | Whip-pan; logo stamp bounce; colour swatches | **VO:** « Un format mini, un impact maximal : Le Carré, personnalisé à vos couleurs. »<br>**Texte:** *Le Carré · personnalisable · plusieurs couleurs* |
 | **9–17s** | Daily use montage → wash → envelope | Struck-through pen; "300×" count; envelope seals | **VO:** « Utilisé tous les jours sans cannibalisation, lavable 300 fois, compostable — et assez léger pour passer dans une enveloppe. »<br>**Texte:** *Vu tous les jours · lavable 300× · tient dans une enveloppe ♻️* |
-| **17–22s** | Branded Carrés flat-lay | Pillar labels flash: Visibilité·Écologie·Financier·Social | **VO:** « Visible, écologique, malin — et expédié pour vous. »<br>**Texte:** *Visibilité · Écologie · Financier · Social* |
+| **17–22s** | Branded Carrés flat-lay | Pillar labels flash: Visibilité·Écologie·Financier·Social | **VO:** « Visible, écologique, malin — dès 2,77 francs la pièce, et expédié pour vous. »<br>**Texte:** *Visibilité · Écologie · Financier · Social — dès 2,77 CHF/pce* |
 | **22–26s** | Logo + product | Logo assembles; button pulses | **VO:** « Le cadeau qui vous rend visible toute l'année. Parlons-en. »<br>**Texte:** *lespaillettesvertes.ch · Le Carré personnalisable* |
 
 ## 🎙️ Short VO — continuous block
-> La plupart des cadeaux d'entreprise finissent oubliés dans un tiroir. Un format mini, un impact maximal : Le Carré, personnalisé à vos couleurs. Utilisé tous les jours sans cannibalisation, lavable 300 fois, compostable — et assez léger pour passer dans une enveloppe. Visible, écologique, malin — et expédié pour vous. Le cadeau qui vous rend visible toute l'année. Parlons-en.
+> La plupart des cadeaux d'entreprise finissent oubliés dans un tiroir. Un format mini, un impact maximal : Le Carré, conçu à Lausanne, personnalisé à vos couleurs. Utilisé tous les jours sans cannibalisation, lavable 300 fois, compostable — et assez léger pour passer dans une enveloppe. Visible, écologique, malin — dès 2,77 francs la pièce, et expédié pour vous. Le cadeau qui vous rend visible toute l'année. Parlons-en.
 
 ## ✍️ Short caption (feed)
 > 🟢 La plupart des goodies finissent au fond d'un tiroir. Pas Le Carré.
@@ -170,14 +171,32 @@ Drawer→Product: whip-pan · Product→Meet: soft glow dissolve · Meet→Visib
 
 ---
 
-## 📊 Data sources & notes
-- "Le Carré": 70% wood cellulose / 30% cotton, machine-washable up to 300×, ultra-absorbent, biodegradable/compostable; lespaillettesvertes.ch.
-- Fondation Eben-Hézer (Lausanne): foundation supporting people with disabilities for 120+ years; here the **outsourced logistics partner** that handles the **publipostage** (prepares & ships Le Carré orders to recipients).
-- ⚠️ **NOT "Made in Switzerland"** — do not claim Swiss manufacture or "our own workshop."
+## 📊 Verified product facts (source: official PV Ventes / Prix / CGV — 10.10.2024)
+- **Composition:** 100% biodégradable — 70% cellulose de bois FSC (norvégien) + 30% coton GOTS, encres à base d'eau. Décomposition en 24 semaines (testé EMPA Zürich).
+- **Conçu à Lausanne, fabriqué en Allemagne.** ⚠️ Do NOT say "Made in Switzerland" / "our own workshop." "Conçu à Lausanne / designed in Lausanne" IS accurate.
+- **Entretien:** lavable jusqu'à 95°C (lave-linge ou lave-vaisselle), jusqu'à 300 fois. Ultra-absorbant, résistant, doux, ne peluche pas.
+- **Formats:** 170×195 mm (petit) ou 202×220 mm (grand — blanc uniquement). 17 coloris d'impression standard + coloris éponge; Pantone sur demande.
+- **Bandeau** papier blanc recyclé 170 g/m² pour entourer une ou plusieurs éponges (le "trio").
+- **Délai:** ~4–5 semaines après validation du BAT. Paiement: 50% d'acompte, solde à 30 jours. Min. de commande: 500 pièces.
+
+### 💰 Prix officiels (CHF, HT, 1 côté imprimé / 1 couleur) — à confirmer comme tarif en vigueur avec Raphaël
+| Quantité | Petit format 170×195 | Grand format 202×220 |
+|:--|:--|:--|
+| 500 | 2,77 | 3,08 |
+| 1 000 | 2,39 | 2,82 |
+| 2 000 | 2,22 | 2,58 |
+| 3 000 | 1,99 | 2,35 |
+| 5 000 | 1,78 | 2,12 |
+| > 5 000 | sur demande | sur demande |
+- **Suppléments:** mélange de coloris éponge CHF 45.-/commande · couleur d'impression additionnelle CHF 45.-/couleur · Pantone CHF 65.-/couleur · impression 2e face & bandeau papier sur demande.
+- Note: prix **HT** (soumis à TVA); frais de port à charge du client (CGV). Le **publipostage** vers plusieurs destinataires = service partenaire Eben-Hézer (tarif à confirmer).
+
+### Other notes
+- Fondation Eben-Hézer (Lausanne): foundation supporting people with disabilities; here the **logistics partner** handling the **publipostage**.
 - Positioning: year-round corporate gift (events, HR, client/employee gifts, end-of-year) — not Christmas-specific.
 - Target audience (Amanda's brief): responsables événementiel · départements RH · commerces & entreprises de proximité · agences de communication.
 
 ## ✅ To confirm before producing
-- ⏳ **Price & minimum order** — to confirm with Raphaël (per-piece price, quantity tiers, whether it includes logo print + bandeau + Eben-Hézer mailing). Draft email ready.
+- ⏳ **Prices** — figures above are from the official list (10.10.2024); confirm they're still current with Raphaël, plus the **publipostage** (Eben-Hézer mailing) pricing.
 - Testimonial brand names + quotes (scene 8) — get each client's OK before publishing.
 - Exact wording of the moto and pillar copy if Amanda has a preferred phrasing.
