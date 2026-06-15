@@ -40,16 +40,17 @@
 ### Scene 4 — 22–35s — Done-for-you process
 - **Footage:** Design → print → sleeve with message → packing 1/3/7 → envelope → ship.
 - **Motion:** Animated 3-step flow (panels slide in 1→2→3); icons pop; "1 / 3 / 7" count up; an envelope slides in & seals; map of Switzerland with pins popping + dotted line drawing across.
-- **VO (FR):** « Vous choisissez le design et le message imprimé sur la pochette. On imprime, on emballe — à l'unité, par 3 ou par 7 — et on expédie à chacun de vos destinataires. Un Carré tient dans une enveloppe : l'envoi ne coûte presque rien. »
-- **Texte:** *Logo + message · packs de 1·3·7 · expédié pour vous · tient dans une enveloppe ✉️*
-- *(EN: You choose the design and the message printed on the sleeve. We print, we pack — singles, packs of 3 or 7 — and ship to each recipient. One Carré fits in an envelope, so sending costs almost nothing.)*
+- **VO (FR):** « Vous choisissez le design et le message imprimé sur la pochette. On s'occupe de tout — préparation des commandes, à l'unité, par 3 ou par 7, et expédition à chacun de vos destinataires. Un Carré tient dans une enveloppe : l'envoi ne coûte presque rien. »
+- **Texte:** *Logo + message · packs de 1·3·7 · préparé & expédié pour vous · tient dans une enveloppe ✉️*
+- **On-screen credit (small, during ship beat):** *Préparation & expédition de vos commandes confiées aux ateliers de la Fondation Eben-Hézer.*
+- *(EN: You choose the design and the message printed on the sleeve. We handle everything — order fulfilment, singles, packs of 3 or 7, and shipping to each recipient. One Carré fits in an envelope, so sending costs almost nothing. Small on-screen credit: order prep & shipping handled by the Fondation Eben-Hézer workshops.)*
 
-### Scene 5 — 35–46s — Why + Eben-Hézer
-- **Footage:** Cloth in use → compost → Eben-Hézer workshop/packing.
-- **Motion:** "300×" counter spins; a leaf grows on "compostable"; warm cross-dissolve to the workshop; a 🤝 icon draws on.
-- **VO (FR):** « Un cadeau vraiment utile : il remplace des dizaines de rouleaux, se lave 300 fois et se composte. Et il a une âme : son conditionnement est confié aux ateliers de la Fondation Eben-Hézer, qui accompagne des personnes en situation de handicap. »
-- **Texte:** *Utile · lavable 300× · compostable 🌱 — avec la Fondation Eben-Hézer 🤝*
-- *(EN: A genuinely useful gift: replaces dozens of rolls, washes 300×, composts. And it has a soul: packing is entrusted to the Eben-Hézer Foundation workshops, which support people with disabilities.)*
+### Scene 5 — 35–46s — Why (product)
+- **Footage:** Cloth in use → wipe → compost.
+- **Motion:** "300×" counter spins; a leaf grows on "compostable"; subtle parallax push-in.
+- **VO (FR):** « Un cadeau vraiment utile : il remplace des dizaines de rouleaux, se lave 300 fois et se composte. »
+- **Texte:** *Utile · lavable 300× · compostable 🌱*
+- *(EN: A genuinely useful gift: replaces dozens of rolls, washes 300×, composts.)*
 
 ### Scene 6 — 46–52s — Testimonials  ⚠️ TO FILL
 - **Footage:** Client logos / IG-post screenshots + a quote.
@@ -78,8 +79,8 @@
 > Chaque année, près d'un milliard de cartes de vœux finissent à la poubelle.
 > Et si, pour le même prix, votre message de fin d'année devenait un cadeau utilisé 300 fois ?
 > Voici Le Carré : l'essuie-tout lavable suisse, conçu et fabriqué dans notre propre atelier. Personnalisé avec votre logo, vos couleurs, votre message.
-> Vous choisissez le design et le message imprimé sur la pochette. On imprime, on emballe — à l'unité, par 3 ou par 7 — et on expédie à chacun de vos destinataires. Un Carré tient dans une enveloppe : l'envoi ne coûte presque rien.
-> Un cadeau vraiment utile : il remplace des dizaines de rouleaux, se lave 300 fois et se composte. Et il a une âme : son conditionnement est confié aux ateliers de la Fondation Eben-Hézer, qui accompagne des personnes en situation de handicap.
+> Vous choisissez le design et le message imprimé sur la pochette. On s'occupe de tout — préparation des commandes, à l'unité, par 3 ou par 7, et expédition à chacun de vos destinataires. Un Carré tient dans une enveloppe : l'envoi ne coûte presque rien.
+> Un cadeau vraiment utile : il remplace des dizaines de rouleaux, se lave 300 fois et se composte.
 > Des entreprises nous font déjà confiance.
 > À partir de 4 francs la pièce, dès 500 pièces. Mais anticipez : à l'approche de Noël, les délais explosent.
 > Le Carré — le cadeau d'entreprise responsable. Parlons-en.
@@ -88,14 +89,14 @@
 1. 1 MILLIARD de cartes jetées chaque année 🗑️
 2. Et si votre message durait toute l'année ? 🌿
 3. Le Carré · fabriqué en Suisse 🇨🇭 · personnalisable
-4. Logo + message · packs de 1·3·7 · expédié pour vous · tient dans une enveloppe ✉️
-5. Utile · lavable 300× · compostable 🌱 — avec la Fondation Eben-Hézer 🤝
+4. Logo + message · packs de 1·3·7 · préparé & expédié pour vous · tient dans une enveloppe ✉️ — *(petit crédit : préparation & expédition par les ateliers de la Fondation Eben-Hézer)*
+5. Utile · lavable 300× · compostable 🌱
 6. « [citation client] » — [Marque]
 7. Dès 4 CHF/pièce · à partir de 500 pièces · commandez tôt ⏳
 8. Le Carré personnalisable → lespaillettesvertes.ch
 
 ## 🔁 Transitions cheat-sheet
-Bin→Nature: whip-pan · Nature→Product: soft glow dissolve · Product→Process: card-flip · Process steps: sliding panels · Process→Why: envelope wipe · Why→Testimonials: logo pop grid · Testimonials→Price: price-tag swing · Price→CTA: particle assemble.
+Bin→Nature: whip-pan · Nature→Product: soft glow dissolve · Product→Process: card-flip · Process steps: sliding panels · Process→Why: envelope wipe (small Eben-Hézer fulfilment credit appears on the ship beat) · Why→Testimonials: logo pop grid · Testimonials→Price: price-tag swing · Price→CTA: particle assemble.
 
 ## 🛠️ Tools
 - CapCut or Canva (templates + auto-captions + counter/typography effects) — fastest, no After Effects needed.
@@ -103,7 +104,7 @@ Bin→Nature: whip-pan · Nature→Product: soft glow dissolve · Product→Proc
 - Music: calm, professional, beat-synced (NOT a trendy Reel sound — this is B2B).
 
 ## 🤖 AI video-generation prompt (English)
-> A dynamic 60s vertical corporate video, sage-green and cream palette, Swiss eco-brand, smooth motion-graphics style with kinetic typography and animated counters. Sequence: a bin rapidly overflowing with mismatched greeting cards (time-lapse, a counter spinning to one billion); whip-pan to calm Swiss nature; a logo stamping onto a reusable sponge cloth, colourful designs fanning out like cards; an animated 3-step flow of designing, printing, a paper sleeve, packing in sets, an envelope sealing, pins popping on a map of Switzerland; the cloth wiping a counter then composting, a "300x" counter, a warm workshop where people pack the cloths; a grid of client logos popping in; a big animated "4 CHF" price tag and calendar pages flying toward Christmas; an end card with a brand logo assembling from particles. Premium, hopeful, beat-synced. No baked-in text.
+> A dynamic 60s vertical corporate video, sage-green and cream palette, Swiss eco-brand, smooth motion-graphics style with kinetic typography and animated counters. Sequence: a bin rapidly overflowing with mismatched greeting cards (time-lapse, a counter spinning to one billion); whip-pan to calm Swiss nature; a logo stamping onto a reusable sponge cloth, colourful designs fanning out like cards; an animated 3-step flow of designing, printing, a paper sleeve, packing in sets, an envelope sealing, pins popping on a map of Switzerland; the cloth wiping a counter then composting, a "300x" counter; a grid of client logos popping in; a big animated "4 CHF" price tag and calendar pages flying toward Christmas; an end card with a brand logo assembling from particles. Premium, hopeful, beat-synced. No baked-in text.
 
 ## ✍️ LinkedIn post caption
 > 🎁 Et si, cette année, votre cadeau d'entreprise avait vraiment du sens ?
@@ -112,8 +113,7 @@ Bin→Nature: whip-pan · Nature→Product: soft glow dissolve · Product→Proc
 >
 > ✅ Votre logo & message imprimés (carré + pochette)
 > ✅ Conçu & fabriqué dans notre propre atelier en Suisse
-> ✅ Conditionnement confié aux ateliers de la Fondation Eben-Hézer 🤝
-> ✅ On imprime, on emballe (packs de 1, 3 ou 7) et on expédie à chacun de vos destinataires
+> ✅ On s'occupe de tout : préparation des commandes (packs de 1, 3 ou 7) et expédition à chacun de vos destinataires — préparation & expédition confiées aux ateliers de la Fondation Eben-Hézer
 > ✅ Tient dans une enveloppe → envoi quasi gratuit
 > ✅ Lavable 300×, compostable — un cadeau utilisé pendant des mois
 >
@@ -127,7 +127,7 @@ Bin→Nature: whip-pan · Nature→Product: soft glow dissolve · Product→Proc
 
 ## ✅ To confirm before producing
 - Testimonial brand name(s) + quote (scene 6) — from the IG post.
-- Eben-Hézer wording: "conditionnement confié aux ateliers de la Fondation Eben-Hézer" — confirm this matches the real relationship.
+- ✅ Eben-Hézer role clarified: outsourced **fulfilment** partner (receives order + message, packs, ships to customers). Framed lightly as a single on-screen credit on the ship beat — no emotional VO build-up.
 - Optional: a hard order-by date for Christmas to sharpen urgency.
 
 ---
@@ -162,5 +162,5 @@ Bin→Nature: whip-pan · Nature→Product: soft glow dissolve · Product→Proc
 ## 📊 Data sources (verified)
 - ~1 billion greeting cards thrown away each year; ~75% never recycled (widely reported, mainly UK figures).
 - "Le Carré": 70% wood cellulose / 30% cotton, washable up to 300×, compostable; lespaillettesvertes.ch.
-- Eben-Hézer Lausanne: foundation supporting people with disabilities for 120+ years.
+- Fondation Eben-Hézer (Lausanne): foundation supporting people with disabilities for 120+ years; here the **outsourced fulfilment partner** that prepares and ships Le Carré orders to recipients.
 - 2025/26 corporate gifting trend toward eco-friendly utility gifts (Crestline, VistaPrint).
