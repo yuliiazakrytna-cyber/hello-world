@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="600" viewBox="0 0 1240 600">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#FBF7EF"/><stop offset="1" stop-color="#EDE7F3"/></linearGradient></defs>
+<rect width="1240" height="600" fill="url(#bg)"/>
+<!-- LEFT: product photo placeholder -->
+<rect x="40" y="60" width="640" height="480" rx="20" fill="#ffffff" stroke="#E4DFEA" stroke-width="2" stroke-dasharray="8 7"/>
+<circle cx="360" cy="250" r="22" fill="#E2A53C"/><line x1="386.0" y1="250.0" x2="392.0" y2="250.0" stroke="#E2A53C" stroke-width="2.6" stroke-linecap="round"/><line x1="378.4" y1="268.4" x2="382.6" y2="272.6" stroke="#E2A53C" stroke-width="2.6" stroke-linecap="round"/><line x1="360.0" y1="276.0" x2="360.0" y2="282.0" stroke="#E2A53C" stroke-width="2.6" stroke-linecap="round"/><line x1="341.6" y1="268.4" x2="337.4" y2="272.6" stroke="#E2A53C" stroke-width="2.6" stroke-linecap="round"/><line x1="334.0" y1="250.0" x2="328.0" y2="250.0" stroke="#E2A53C" stroke-width="2.6" stroke-linecap="round"/><line x1="341.6" y1="231.6" x2="337.4" y2="227.4" stroke="#E2A53C" stroke-width="2.6" stroke-linecap="round"/><line x1="360.0" y1="224.0" x2="360.0" y2="218.0" stroke="#E2A53C" stroke-width="2.6" stroke-linecap="round"/><line x1="378.4" y1="231.6" x2="382.6" y2="227.4" stroke="#E2A53C" stroke-width="2.6" stroke-linecap="round"/>
+<text x="360" y="320" text-anchor="middle" font-family="DejaVu Sans" font-size="26" fill="#B7AEC2">Votre photo produits ici</text>
+<text x="360" y="352" text-anchor="middle" font-family="DejaVu Sans" font-size="18" fill="#C7BFD2">(savons, soins, Le Carré…)</text>
+
+<!-- RIGHT: offer card -->
+<rect x="712" y="80" width="488" height="440" rx="24" fill="#ffffff" stroke="#E7E3DB" stroke-width="2"/>
+<g transform="translate(760,150)"><circle cx="0" cy="-6" r="11" fill="#E2A53C"/><line x1="15.0" y1="-6.0" x2="21.0" y2="-6.0" stroke="#E2A53C" stroke-width="2.6" stroke-linecap="round"/><line x1="10.6" y1="4.6" x2="14.8" y2="8.8" stroke="#E2A53C" stroke-width="2.6" stroke-linecap="round"/><line x1="0.0" y1="9.0" x2="0.0" y2="15.0" stroke="#E2A53C" stroke-width="2.6" stroke-linecap="round"/><line x1="-10.6" y1="4.6" x2="-14.8" y2="8.8" stroke="#E2A53C" stroke-width="2.6" stroke-linecap="round"/><line x1="-15.0" y1="-6.0" x2="-21.0" y2="-6.0" stroke="#E2A53C" stroke-width="2.6" stroke-linecap="round"/><line x1="-10.6" y1="-16.6" x2="-14.8" y2="-20.8" stroke="#E2A53C" stroke-width="2.6" stroke-linecap="round"/><line x1="-0.0" y1="-21.0" x2="-0.0" y2="-27.0" stroke="#E2A53C" stroke-width="2.6" stroke-linecap="round"/><line x1="10.6" y1="-16.6" x2="14.8" y2="-20.8" stroke="#E2A53C" stroke-width="2.6" stroke-linecap="round"/></g>
+<text x="792" y="146" font-family="DejaVu Sans" font-size="22" letter-spacing="4" fill="#6F9A52">OFFRE D'ÉTÉ</text>
+<text x="956" y="290" text-anchor="middle" font-family="DejaVu Sans" font-weight="bold" font-size="150" fill="#16A34A">-25%</text>
+<text x="956" y="340" text-anchor="middle" font-family="DejaVu Sans" font-weight="bold" font-size="34" letter-spacing="2" fill="#2C2C2C">SUR TOUT LE SITE</text>
+<!-- deadline pill -->
+<rect x="806" y="366" width="300" height="46" rx="23" fill="#FBEEE2"/>
+<text x="956" y="397" text-anchor="middle" font-family="DejaVu Sans" font-weight="bold" font-size="22" fill="#C77A2B">Jusqu'au 22 juillet</text>
+<!-- CTA -->
+<rect x="820" y="432" width="272" height="60" rx="30" fill="#16A34A"/>
+<text x="956" y="471" text-anchor="middle" font-family="DejaVu Sans" font-weight="bold" font-size="24" fill="#ffffff">J'EN PROFITE</text>
+<!-- logo -->
+<g transform="translate(956,530)">
+  <text x="0" y="0" text-anchor="middle" font-family="DejaVu Serif" font-size="22" fill="#3F5E3A">les paillettes vertes</text>
+  <g transform="translate(120,-14)"><ellipse cx="0" cy="0" rx="6" ry="2.8" fill="#8FB573" transform="rotate(0 0 0)"/><ellipse cx="13" cy="-5" rx="6" ry="2.8" fill="#6F9A52" transform="rotate(40 13 -5)"/><ellipse cx="25" cy="-1" rx="6" ry="2.8" fill="#A7C48C" transform="rotate(80 25 -1)"/><ellipse cx="9" cy="-15" rx="6" ry="2.8" fill="#8FB573" transform="rotate(120 9 -15)"/><ellipse cx="21" cy="-13" rx="6" ry="2.8" fill="#6F9A52" transform="rotate(160 21 -13)"/><ellipse cx="33" cy="-8" rx="6" ry="2.8" fill="#A7C48C" transform="rotate(200 33 -8)"/></g>
+</g>
+</svg>
