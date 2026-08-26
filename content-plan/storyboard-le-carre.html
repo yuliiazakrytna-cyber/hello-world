@@ -1,0 +1,297 @@
+<title>Le Carré — Storyboard vidéo (FR / EN)</title>
+<style>
+  :root{
+    --bg:#F3F1E9; --panel:#FBFAF5; --panel-2:#F6F4EC; --ink:#26251F; --ink-2:#565349;
+    --muted:#8A8577; --line:#E2DFD3; --line-2:#D6D2C4;
+    --fr:#2E5D3A; --fr-bg:#EDF2E7; --en:#5B5749;
+    --accent:#2F5D3A;
+    --shadow:0 1px 2px rgba(40,38,30,.05),0 8px 24px rgba(40,38,30,.06);
+    --serif:Georgia,'Iowan Old Style','Times New Roman',serif;
+    --sans:system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
+    --mono:ui-monospace,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace;
+  }
+  @media (prefers-color-scheme:dark){
+    :root{
+      --bg:#1B1B18; --panel:#242320; --panel-2:#2B2A26; --ink:#EDEBE2; --ink-2:#C3BFB2;
+      --muted:#928D7E; --line:#37352F; --line-2:#413F37;
+      --fr:#9FD0A6; --fr-bg:#222C22; --en:#B7B2A3;
+      --accent:#9FD0A6; --shadow:0 1px 2px rgba(0,0,0,.3),0 10px 30px rgba(0,0,0,.35);
+    }
+  }
+  :root[data-theme="light"]{
+    --bg:#F3F1E9; --panel:#FBFAF5; --panel-2:#F6F4EC; --ink:#26251F; --ink-2:#565349;
+    --muted:#8A8577; --line:#E2DFD3; --line-2:#D6D2C4; --fr:#2E5D3A; --fr-bg:#EDF2E7; --en:#5B5749;
+    --accent:#2F5D3A; --shadow:0 1px 2px rgba(40,38,30,.05),0 8px 24px rgba(40,38,30,.06);
+  }
+  :root[data-theme="dark"]{
+    --bg:#1B1B18; --panel:#242320; --panel-2:#2B2A26; --ink:#EDEBE2; --ink-2:#C3BFB2;
+    --muted:#928D7E; --line:#37352F; --line-2:#413F37; --fr:#9FD0A6; --fr-bg:#222C22; --en:#B7B2A3;
+    --accent:#9FD0A6; --shadow:0 1px 2px rgba(0,0,0,.3),0 10px 30px rgba(0,0,0,.35);
+  }
+
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);line-height:1.5;
+    -webkit-font-smoothing:antialiased;}
+  .wrap{max-width:960px;margin:0 auto;padding:32px 20px 80px;}
+
+  /* header */
+  header.top{display:flex;flex-direction:column;gap:14px;padding-bottom:22px;border-bottom:1px solid var(--line);margin-bottom:8px;}
+  .kicker{font-family:var(--mono);font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);}
+  h1{font-family:var(--serif);font-weight:600;font-size:clamp(26px,4vw,38px);line-height:1.1;margin:0;text-wrap:balance;}
+  h1 em{font-style:italic;color:var(--accent);}
+  .sub{color:var(--ink-2);max-width:60ch;font-size:15px;margin:0;}
+  .meta{display:flex;flex-wrap:wrap;gap:8px;align-items:center;}
+  .chip{font-family:var(--mono);font-size:12px;padding:4px 10px;border-radius:999px;border:1px solid var(--line-2);background:var(--panel);color:var(--ink-2);white-space:nowrap;}
+  .chip b{color:var(--ink)}
+  .legend{display:flex;gap:10px;flex-wrap:wrap;margin-top:2px}
+  .legend .tag{display:inline-flex;align-items:center;gap:7px;font-size:13px;color:var(--ink-2)}
+  .dot{width:11px;height:11px;border-radius:3px;flex:none}
+  .dot.fr{background:var(--fr)} .dot.en{background:var(--muted)}
+
+  /* timeline */
+  .timeline{display:flex;width:100%;height:34px;border-radius:8px;overflow:hidden;border:1px solid var(--line-2);margin:22px 0 30px;background:var(--panel);}
+  .timeline a{display:flex;align-items:center;justify-content:center;min-width:0;color:#fff;font-family:var(--mono);
+    font-size:11px;text-decoration:none;opacity:.92;transition:opacity .15s;border-right:1px solid rgba(255,255,255,.25);}
+  .timeline a:last-child{border-right:0}
+  .timeline a:hover,.timeline a:focus-visible{opacity:1;outline:none}
+  .timeline a span{padding:0 4px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;text-shadow:0 1px 1px rgba(0,0,0,.25)}
+
+  /* scene card */
+  .scene{background:var(--panel);border:1px solid var(--line);border-radius:14px;box-shadow:var(--shadow);
+    overflow:hidden;margin-bottom:20px;scroll-margin-top:16px;}
+  .scene-head{display:flex;align-items:stretch;gap:0;border-bottom:1px solid var(--line);}
+  .num{flex:none;width:74px;display:flex;flex-direction:column;align-items:center;justify-content:center;
+    background:var(--accent);color:#fff;padding:14px 6px;text-align:center;}
+  .num .n{font-family:var(--serif);font-size:26px;font-weight:600;line-height:1}
+  .num .t{font-family:var(--mono);font-size:10.5px;margin-top:5px;opacity:.92;letter-spacing:.02em}
+  .head-body{padding:12px 16px;display:flex;flex-direction:column;justify-content:center;gap:3px;min-width:0}
+  .phase{font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);font-weight:600}
+  .scene-title{font-family:var(--serif);font-size:19px;font-weight:600;line-height:1.15;color:var(--ink)}
+
+  .rows{padding:6px 16px 16px}
+  .row{padding:13px 0;border-bottom:1px dashed var(--line-2);}
+  .row:last-child{border-bottom:0}
+  .rlabel{display:flex;align-items:center;gap:8px;font-family:var(--mono);font-size:11px;letter-spacing:.08em;
+    text-transform:uppercase;color:var(--muted);margin-bottom:7px}
+  .rlabel .en-lab{color:var(--line-2);font-size:10px}
+  .direction{color:var(--ink-2);font-size:14.5px}
+
+  /* bilingual grid */
+  .bi{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+  .cell{border-radius:10px;padding:11px 13px;min-width:0}
+  .cell.fr{background:var(--fr-bg);border:1px solid color-mix(in srgb,var(--fr) 22%,transparent);}
+  .cell.en{background:var(--panel-2);border:1px solid var(--line)}
+  .cell .lang{font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;margin-bottom:5px;display:flex;gap:6px;align-items:center}
+  .cell.fr .lang{color:var(--fr)} .cell.en .lang{color:var(--muted)}
+  .cell.fr .lang b{background:var(--fr);color:var(--panel);border-radius:3px;padding:0 5px;font-size:10px}
+  .cell.en .lang b{background:var(--muted);color:var(--panel);border-radius:3px;padding:0 5px;font-size:10px}
+  .vo-fr{font-family:var(--serif);font-size:15.5px;color:var(--ink);line-height:1.45}
+  .vo-en{font-size:14px;color:var(--en);line-height:1.45}
+  .txt-fr{font-family:var(--mono);font-size:13.5px;color:var(--ink);line-height:1.5}
+  .txt-en{font-family:var(--mono);font-size:12.5px;color:var(--en);line-height:1.5}
+
+  .quote{margin-top:10px;border-left:3px solid var(--accent);padding:4px 0 4px 14px;}
+  .quote .q-fr{font-family:var(--serif);font-style:italic;font-size:15px;color:var(--ink)}
+  .quote .q-en{font-size:13.5px;color:var(--en);margin-top:4px}
+  .quote .q-by{font-family:var(--mono);font-size:11.5px;color:var(--muted);margin-top:6px}
+
+  .note{margin-top:10px;display:flex;gap:9px;align-items:flex-start;background:var(--panel-2);
+    border:1px dashed var(--line-2);border-radius:9px;padding:9px 12px;font-size:12.5px;color:var(--ink-2)}
+  .note .nl{font-family:var(--mono);font-size:10px;letter-spacing:.1em;color:var(--muted);flex:none;margin-top:2px}
+
+  /* footer panels */
+  .panel{background:var(--panel);border:1px solid var(--line);border-radius:14px;box-shadow:var(--shadow);padding:20px;margin-top:26px}
+  .panel h2{font-family:var(--serif);font-size:21px;margin:0 0 4px;font-weight:600}
+  .panel .psub{color:var(--muted);font-size:13px;margin:0 0 16px}
+  .vo-block{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+  .vo-col{border-radius:10px;padding:14px;font-size:14px;line-height:1.55}
+  .vo-col.fr{background:var(--fr-bg);border:1px solid color-mix(in srgb,var(--fr) 22%,transparent)}
+  .vo-col.en{background:var(--panel-2);border:1px solid var(--line);color:var(--en)}
+  .vo-col .lang{font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;margin-bottom:9px}
+  .vo-col.fr .lang{color:var(--fr)} .vo-col.en .lang{color:var(--muted)}
+  .vo-col.fr p{font-family:var(--serif)} .vo-col p{margin:0 0 9px} .vo-col p:last-child{margin:0}
+
+  .confirm{list-style:none;padding:0;margin:12px 0 0;display:flex;flex-direction:column;gap:9px}
+  .confirm li{display:flex;gap:10px;align-items:flex-start;font-size:13.5px;color:var(--ink-2)}
+  .confirm .b{flex:none;width:7px;height:7px;border-radius:50%;background:#C58A3A;margin-top:6px}
+
+  footer.foot{margin-top:30px;text-align:center;color:var(--muted);font-family:var(--mono);font-size:11.5px}
+
+  @media (max-width:640px){
+    .bi{grid-template-columns:1fr} .vo-block{grid-template-columns:1fr}
+    .num{width:60px} .timeline a span{display:none}
+  }
+  @media (prefers-reduced-motion:no-preference){
+    .scene,.panel{opacity:0;transform:translateY(10px);animation:rise .5s cubic-bezier(.2,.7,.3,1) forwards}
+    @keyframes rise{to{opacity:1;transform:none}}
+  }
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <span class="kicker">Storyboard vidéo · B2B</span>
+    <h1>Le Carré — <em>le film</em>, scène par scène</h1>
+    <p class="sub">Un plan de tournage bilingue. Le <strong>français</strong> est ce qui sera dit et affiché dans la vidéo (version finale). L'<strong>anglais</strong> est la traduction — pour votre compréhension, à ne pas mettre dans la vidéo.</p>
+    <div class="meta">
+      <span class="chip"><b>~63 s</b> · durée totale</span>
+      <span class="chip"><b>9</b> scènes</span>
+      <span class="chip">Vertical <b>9:16</b></span>
+      <span class="chip">VO + motion graphics</span>
+    </div>
+    <div class="legend">
+      <span class="tag"><span class="dot fr"></span> FR — dans la vidéo / in the video</span>
+      <span class="tag"><span class="dot en"></span> EN — pour vous / for you</span>
+    </div>
+  </header>
+
+  <nav class="timeline" id="timeline" aria-label="Timeline des scènes"></nav>
+  <main id="scenes"></main>
+
+  <section class="panel" id="vo">
+    <h2>Voix-off — texte continu</h2>
+    <p class="psub">Le bloc complet pour générer la voix (TTS). FR = à enregistrer · EN = traduction.</p>
+    <div class="vo-block">
+      <div class="vo-col fr"><div class="lang">🇫🇷 Français — à enregistrer</div><div id="vo-fr"></div></div>
+      <div class="vo-col en"><div class="lang">🇬🇧 English — translation</div><div id="vo-en"></div></div>
+    </div>
+  </section>
+
+  <section class="panel" id="confirm">
+    <h2>À confirmer avant production</h2>
+    <p class="psub">To confirm before producing</p>
+    <ul class="confirm">
+      <li><span class="b"></span><span><b>Prix (scène 6)</b> — « dès 1,78 CHF » = tarif 5 000 pièces (petit format, 1 couleur, HT). Confirmer le tarif en vigueur avec Raphaël. <em>/ Price shown is the 5,000-pcs rate; confirm current rate.</em></span></li>
+      <li><span class="b"></span><span><b>Témoignages (scène 8)</b> — obtenir l'accord de chaque client avant de publier les citations. <em>/ Get each client's OK before publishing quotes.</em></span></li>
+      <li><span class="b"></span><span><b>Scène 3</b> — « des Paillettes Vertes » ou « conçu à Lausanne » ? Choisir une formule. <em>/ Pick one wording.</em></span></li>
+    </ul>
+  </section>
+
+  <footer class="foot">Les Paillettes Vertes · Le Carré personnalisable · lespaillettesvertes.ch</footer>
+</div>
+
+<script>
+const A = {clay:'#B5643C',ochre:'#C58A3A',forest:'#3F7D4E',gold:'#B58A2A',leaf:'#5E9A4E',teal:'#2E7D80',plum:'#8E4A6B',rose:'#B0567A',deep:'#2F5D3A'};
+const scenes = [
+ {n:1,time:'0–5s',dur:5,c:A.clay,phase:'Accroche · Problème',title:'La poubelle de cartes',
+  footage:'Une poubelle qui se remplit / déborde de cartes de vœux dépareillées (time-lapse). Cartes génériques/fictives — aucun logo de concurrent réel.',
+  footage_en:'A bin filling / overflowing with mismatched greeting cards (time-lapse). Generic/fictional cards — no real competitor logos.',
+  motion_en:'Time-lapse speed-ramp; cards tumble; an odometer spins up to "1 000 000 000"; hero text SLAMS in with a tiny shake.',
+  voFr:'« Chaque année, près d’un milliard de cartes finissent à la poubelle. »',
+  voEn:'“Every year, nearly a billion cards end up in the bin.”',
+  txtFr:'1 MILLIARD de cartes jetées chaque année 🗑️', txtEn:'1 BILLION cards thrown away every year 🗑️',
+  note:'Chiffre largement repris (surtout UK) — utilisé comme accroche. / Widely-reported figure (mainly UK), used as a hook.'},
+ {n:2,time:'5–11s',dur:6,c:A.ochre,phase:'Élargir · La devise',title:'Le tiroir des goodies',
+  footage:'Panoramique rapide vers un tiroir de goodies inutilisés (stylos, mugs, gadgets) → puis un Carré en main, en usage.',
+  footage_en:'Whip to a drawer of unused promo goodies (pens, mugs, gadgets) → then a Carré in hand, in use.',
+  motion_en:'Cards → goodies pile → Carré; the moto types on; cloth fades up with a soft glow.',
+  voFr:'« Et les goodies — stylos, mugs, gadgets — finissent, eux, au fond d’un tiroir. Et si, pour un format mini, votre cadeau avait un impact maximal — utilisé tous les jours, plusieurs fois par jour, pendant des mois ? »',
+  voEn:'“And the goodies — pens, mugs, gadgets — end up at the back of a drawer. What if, in a mini format, your gift had maximum impact — used every day, several times a day, for months?”',
+  txtFr:'Un format mini, un impact maximal ✨', txtEn:'A mini format, maximum impact ✨'},
+ {n:3,time:'12–20s',dur:8,c:A.forest,phase:'Présentation',title:'Voici Le Carré',
+  footage:'Le Carré en plusieurs couleurs; designs en éventail; un bandeau papier avec logo/message; un lot trio.',
+  footage_en:'Le Carré in several colours; designs fanned out; a paper banner (bandeau) with a logo/message; a trio pack.',
+  motion_en:'Colour-swatch fan animates; the logo "stamps" onto the bandeau (stamp bounce + ink ripple); a trio assembles with the paper banner sliding around it.',
+  voFr:'« Voici Le Carré : l’essuie-tout lavable des Paillettes Vertes, un objet déco personnalisable, disponible en plusieurs couleurs. À l’unité ou en lot trio, avec un bandeau papier personnalisable pour votre logo et votre message. »',
+  voEn:'“Meet Le Carré: the washable cloth by Les Paillettes Vertes, a customisable décor object, available in several colours. Singly or in a trio pack, with a customisable paper banner for your logo and message.”',
+  txtFr:'Le Carré · des Paillettes Vertes · personnalisable · plusieurs couleurs · logo + message sur bandeau',
+  txtEn:'Le Carré · by Les Paillettes Vertes · customisable · several colours · logo + message on the banner'},
+ {n:4,time:'20–28s',dur:8,c:A.gold,phase:'Pilier · Visibilité',title:'Vu tous les jours',
+  footage:'Le Carré utilisé plusieurs fois dans la journée (essuyer le plan de travail, les pattes du chien, une table au jardin, la cuisine) — un montage; le logo visible à chaque fois.',
+  footage_en:'Carré used several times in a day (wipe counter, wipe dog paws, wipe a garden table, kitchen) — a montage; the logo visible each time.',
+  motion_en:'Pillar label "VISIBILITÉ" stamps in; a small "vu ✕ par jour" counter ticks; a struck-through pen icon for "sans cannibalisation".',
+  voFr:'« Visibilité : on l’utilise plusieurs fois par jour, sans cannibalisation — contrairement à un stylo qu’on remplace par n’importe quel autre. Votre marque reste sous les yeux, tous les jours, pendant des mois. »',
+  voEn:'“Visibility: it’s used several times a day, without cannibalisation — unlike a pen you replace with any other. Your brand stays in sight, every day, for months.”',
+  txtFr:'VISIBILITÉ · utilisé tous les jours · plusieurs fois par jour · sans cannibalisation 👀',
+  txtEn:'VISIBILITY · used every day · several times a day · no cannibalisation 👀'},
+ {n:5,time:'28–35s',dur:7,c:A.leaf,phase:'Pilier · Écologie',title:'Lavable & compostable',
+  footage:'Le Carré dans une machine à laver; il absorbe un liquide renversé; puis dans le compost avec une jeune pousse qui grandit.',
+  footage_en:'Cloth into a washing machine; absorbing a spill; then into compost with a leaf growing.',
+  motion_en:'Pillar label "ÉCOLOGIE"; "300×" counter spins; absorbency ripple; a leaf grows on "compostable".',
+  voFr:'« Écologie : 100% biodégradable, lavable jusqu’à 95 degrés et ultra-absorbant. Il se composte en 24 semaines. »',
+  voEn:'“Ecology: 100% biodegradable, washable up to 95°C and ultra-absorbent. It composts in 24 weeks.”',
+  txtFr:'ÉCOLOGIE · 100% biodégradable · lavable 300× · ultra-absorbant · compostable 🌱',
+  txtEn:'ECOLOGY · 100% biodegradable · washable 300× · ultra-absorbent · compostable 🌱'},
+ {n:6,time:'35–42s',dur:7,c:A.teal,phase:'Pilier · Financier',title:'Petit prix, léger',
+  footage:'Un Carré qui glisse dans une enveloppe standard; un timbre; une sensation de légèreté.',
+  footage_en:'A Carré slipping into a standard envelope; a postage stamp; a light "weightless" feel.',
+  motion_en:'Pillar label "FINANCIER"; a price tag "dès 1,78 CHF" swings in; envelope slides in & seals; a feather/float motion.',
+  voFr:'« Côté budget : dès 1 franc 78 la pièce, et si léger qu’il passe dans une enveloppe — l’envoyer ne coûte presque rien. »',
+  voEn:'“On budget: from CHF 1.78 per piece, and so light it fits in an envelope — sending it costs almost nothing.”',
+  txtFr:'FINANCIER · dès 1,78 CHF/pce (HT) · tient dans une enveloppe ✉️',
+  txtEn:'FINANCIAL · from CHF 1.78/pc (excl. VAT) · fits in an envelope ✉️',
+  note:'Tarif = 5 000 pièces, petit format, 1 couleur, HT (liste 10.10.2024). À confirmer avec Raphaël. / 5,000-pcs rate — confirm current price.'},
+ {n:7,time:'42–48s',dur:6,c:A.plum,phase:'Pilier · Social',title:'La Fondation Eben-Hézer',
+  footage:'Carte de la Suisse avec des épingles qui apparaissent; un atelier partenaire qui prépare les envois.',
+  footage_en:'Map of Switzerland with pins popping; a partner workshop preparing mailings.',
+  motion_en:'Pillar label "SOCIAL"; pins pop + a dotted line draws across the map; a 🤝 icon draws on.',
+  voFr:'« Et l’impact social : notre partenaire logistique, la Fondation Eben-Hézer, se charge du publipostage vers chacun de vos destinataires. »',
+  voEn:'“And social impact: our logistics partner, the Eben-Hézer Foundation, handles the mailing to each of your recipients.”',
+  txtFr:'SOCIAL · publipostage assuré par la Fondation Eben-Hézer 🤝',
+  txtEn:'SOCIAL · mailing handled by the Eben-Hézer Foundation 🤝'},
+ {n:8,time:'48–55s',dur:7,c:A.rose,phase:'Témoignages',title:'Ils l’ont déjà adopté',
+  footage:'Logos clients / captures de posts Instagram + une citation phare.',
+  footage_en:'Client logos / IG-post screenshots + a hero quote.',
+  motion_en:'Logos pop into a grid (stagger); the hero quote types on (typewriter); ⭐⭐⭐⭐⭐ animate.',
+  voFr:'« Des entreprises l’ont déjà adopté. »',
+  voEn:'“Companies have already adopted it.”',
+  txtFr:'Autres logos : Otter Proper · La Fruitière · Intelligence Network',
+  txtEn:'Other logos in the grid: Otter Proper · La Fruitière · Intelligence Network',
+  quoteFr:'« Tout le monde a été bluffé. Un cadeau unique, utile au quotidien, qui marque les esprits bien après les fêtes. »',
+  quoteEn:'“Everyone was blown away. A unique gift, useful every day, that stays memorable long after the holidays.”',
+  quoteBy:'— Agence Fret Cargo (citation phare / hero quote)'},
+ {n:9,time:'55–63s',dur:8,c:A.deep,phase:'Cible + Appel à l’action',title:'Parlons-en',
+  footage:'Flat-lay de Carrés personnalisés → logo + produit.',
+  footage_en:'Branded Carrés flat-lay → logo + product.',
+  motion_en:'Audience tags pop in one by one; logo assembles from particles; button pulses; URL underline draws on.',
+  voFr:'« Responsables événementiel, RH, commerces de proximité, agences de communication : Le Carré, le cadeau qui vous rend visible toute l’année. Parlons-en. »',
+  voEn:'“Event managers, HR, local businesses, communication agencies: Le Carré, the gift that keeps you visible all year. Let’s talk.”',
+  txtFr:'Pour vos événements, RH, clients & équipes — toute l’année · Le Carré personnalisable → lespaillettesvertes.ch',
+  txtEn:'For your events, HR, clients & teams — all year · Le Carré, customisable → lespaillettesvertes.ch'}
+];
+
+const esc = s => s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+const total = scenes.reduce((a,s)=>a+s.dur,0);
+
+// timeline
+document.getElementById('timeline').innerHTML = scenes.map(s=>
+ `<a href="#s${s.n}" style="flex:${s.dur} ${s.dur} 0;background:${s.c}" title="Scène ${s.n} · ${s.time}"><span>${s.n} · ${s.time}</span></a>`).join('');
+
+// scenes
+document.getElementById('scenes').innerHTML = scenes.map(s=>`
+ <section class="scene" id="s${s.n}" style="--accent:${s.c}">
+   <div class="scene-head">
+     <div class="num"><div class="n">${s.n}</div><div class="t">${s.time}</div></div>
+     <div class="head-body"><div class="phase">${esc(s.phase)}</div><div class="scene-title">${esc(s.title)}</div></div>
+   </div>
+   <div class="rows">
+     <div class="row">
+       <div class="rlabel">Tournage <span class="en-lab">/ Footage</span></div>
+       <div class="direction">${esc(s.footage)}<br><span style="color:var(--muted);font-size:13px">${esc(s.footage_en)}</span></div>
+     </div>
+     <div class="row">
+       <div class="rlabel">Motion / Graphics</div>
+       <div class="direction">${esc(s.motion_en)}</div>
+     </div>
+     <div class="row">
+       <div class="rlabel">Voix-off <span class="en-lab">/ Voice-over</span></div>
+       <div class="bi">
+         <div class="cell fr"><div class="lang"><b>FR</b> dans la vidéo</div><div class="vo-fr">${esc(s.voFr)}</div></div>
+         <div class="cell en"><div class="lang"><b>EN</b> for you</div><div class="vo-en">${esc(s.voEn)}</div></div>
+       </div>
+       ${s.quoteFr?`<div class="quote"><div class="q-fr">${esc(s.quoteFr)}</div><div class="q-en">${esc(s.quoteEn)}</div><div class="q-by">${esc(s.quoteBy)}</div></div>`:''}
+     </div>
+     <div class="row">
+       <div class="rlabel">Texte à l’écran <span class="en-lab">/ On-screen text</span></div>
+       <div class="bi">
+         <div class="cell fr"><div class="lang"><b>FR</b> à l’écran</div><div class="txt-fr">${esc(s.txtFr)}</div></div>
+         <div class="cell en"><div class="lang"><b>EN</b> meaning</div><div class="txt-en">${esc(s.txtEn)}</div></div>
+       </div>
+       ${s.note?`<div class="note"><span class="nl">NOTE</span><span>${esc(s.note)}</span></div>`:''}
+     </div>
+   </div>
+ </section>`).join('');
+
+// continuous VO
+document.getElementById('vo-fr').innerHTML = scenes.map(s=>`<p>${esc(s.voFr.replace(/[«»]/g,'').trim())}</p>`).join('');
+document.getElementById('vo-en').innerHTML = scenes.map(s=>`<p>${esc(s.voEn.replace(/[“”]/g,'').trim())}</p>`).join('');
+</script>
