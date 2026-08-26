@@ -1,0 +1,441 @@
+<title>Newsletter Août</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Work+Sans:wght@400;500;600;700&display=swap');
+
+  :root {
+    --paper: #FCFBF6;
+    --surface: #FFFFFF;
+    --surface-alt: #EEF3E9;
+    --ink: #3A3A3A;
+    --ink-soft: #6B7264;
+    --green-deep: #3F5E3A;
+    --green-sage: #6F9A52;
+    --green-pale: #CBD9C0;
+    --gold: #C98A2E;
+    --line: #E4E7DE;
+    --chip-bg: #E4E7DE;
+    --shadow: 0 1px 2px rgba(58,58,58,0.06), 0 8px 24px rgba(58,58,58,0.08);
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --paper: #1B2318;
+      --surface: #222B1F;
+      --surface-alt: #263524;
+      --ink: #EDEFE7;
+      --ink-soft: #A9B39C;
+      --green-deep: #8FB57C;
+      --green-sage: #9EC488;
+      --green-pale: #3A4B34;
+      --gold: #E4A94F;
+      --line: #37402F;
+      --chip-bg: #2B3527;
+      --shadow: 0 1px 2px rgba(0,0,0,0.3), 0 8px 28px rgba(0,0,0,0.35);
+    }
+  }
+
+  :root[data-theme="dark"] {
+    --paper: #1B2318;
+    --surface: #222B1F;
+    --surface-alt: #263524;
+    --ink: #EDEFE7;
+    --ink-soft: #A9B39C;
+    --green-deep: #8FB57C;
+    --green-sage: #9EC488;
+    --green-pale: #3A4B34;
+    --gold: #E4A94F;
+    --line: #37402F;
+    --chip-bg: #2B3527;
+    --shadow: 0 1px 2px rgba(0,0,0,0.3), 0 8px 28px rgba(0,0,0,0.35);
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'Work Sans', ui-sans-serif, system-ui, sans-serif;
+    padding: 56px 20px 96px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 28px;
+  }
+
+  .page-label {
+    font-size: 13px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    text-align: center;
+  }
+
+  .page-label strong { color: var(--green-deep); font-weight: 600; }
+
+  /* ---- Email preview card ---- */
+  .email {
+    width: 100%;
+    max-width: 640px;
+    background: var(--surface);
+    border-radius: 18px;
+    box-shadow: var(--shadow);
+    overflow: hidden;
+    border: 1px solid var(--line);
+  }
+
+  .inbox-bar {
+    padding: 18px 26px;
+    background: var(--surface-alt);
+    border-bottom: 1px solid var(--line);
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  .inbox-row {
+    display: flex;
+    gap: 10px;
+    font-size: 13px;
+    line-height: 1.5;
+  }
+  .inbox-tag {
+    flex-shrink: 0;
+    width: 68px;
+    color: var(--ink-soft);
+    letter-spacing: 0.03em;
+  }
+  .inbox-subject { font-weight: 600; color: var(--ink); }
+  .inbox-preview { color: var(--ink-soft); }
+
+  .email-body { padding: 40px 34px 8px; }
+
+  .greeting-eyebrow {
+    font-size: 13px;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: var(--green-sage);
+    font-weight: 600;
+    margin: 0 0 10px;
+  }
+
+  h1.hero {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 1.28;
+    letter-spacing: -0.01em;
+    color: var(--green-deep);
+    margin: 0 0 18px;
+    text-wrap: balance;
+  }
+
+  .greeting {
+    font-family: 'Fraunces', Georgia, serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--ink);
+    margin: 0 0 36px;
+  }
+
+  section.block { padding: 0 34px 40px; }
+  section.block:last-of-type { padding-bottom: 8px; }
+
+  .block-head {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 14px;
+  }
+
+  .block-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    background: var(--surface-alt);
+  }
+  .block-icon svg { width: 21px; height: 21px; }
+
+  h2.block-title {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 600;
+    font-size: 21px;
+    color: var(--ink);
+    margin: 0;
+    text-wrap: balance;
+  }
+
+  p { font-size: 15.5px; line-height: 1.65; color: var(--ink); margin: 0 0 14px; max-width: 62ch; }
+  p.soft { color: var(--ink-soft); }
+  strong { font-weight: 600; color: var(--green-deep); }
+
+  /* Sale badge (Bloc 1) */
+  .sale-row { display: flex; align-items: center; gap: 20px; margin-bottom: 18px; flex-wrap: wrap; }
+  .sale-badge {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 1;
+    color: var(--paper);
+    background: var(--green-deep);
+    border-radius: 999px;
+    padding: 14px 26px;
+    white-space: nowrap;
+  }
+  .sale-badge span { display: block; font-family: 'Work Sans', sans-serif; font-size: 11.5px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; margin-top: 3px; opacity: 0.85; }
+
+  /* Post office block */
+  .locations {
+    background: var(--surface-alt);
+    border-radius: 14px;
+    padding: 20px 22px;
+    margin-top: 4px;
+  }
+  .location-row { display: flex; gap: 12px; align-items: flex-start; padding: 10px 0; }
+  .location-row + .location-row { border-top: 1px solid var(--line); }
+  .location-row svg { width: 17px; height: 17px; flex-shrink: 0; margin-top: 3px; color: var(--green-sage); }
+  .location-row div { font-size: 14.5px; line-height: 1.55; }
+  .location-row .loc-name { font-weight: 600; color: var(--ink); }
+
+  /* Checklist (Bloc 3) */
+  ul.checks { list-style: none; margin: 6px 0 22px; padding: 0; display: flex; flex-direction: column; gap: 11px; }
+  ul.checks li { display: flex; gap: 11px; font-size: 15px; line-height: 1.55; align-items: flex-start; }
+  ul.checks li svg { width: 18px; height: 18px; flex-shrink: 0; margin-top: 2px; color: var(--green-sage); }
+  ul.checks li b { color: var(--ink); font-weight: 600; }
+
+  .callout {
+    background: var(--surface-alt);
+    border-left: 3px solid var(--gold);
+    border-radius: 8px;
+    padding: 14px 18px;
+    font-size: 14px;
+    color: var(--ink-soft);
+    margin: 4px 0 22px;
+  }
+  .callout strong { color: var(--ink); }
+
+  /* CTA button */
+  .cta {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: var(--green-deep);
+    color: var(--paper);
+    font-weight: 600;
+    font-size: 14.5px;
+    text-decoration: none;
+    padding: 13px 24px;
+    border-radius: 999px;
+    letter-spacing: 0.01em;
+  }
+  .cta.ghost {
+    background: transparent;
+    color: var(--green-deep);
+    border: 1.5px solid var(--green-pale);
+  }
+
+  hr.div { border: none; border-top: 1px solid var(--line); margin: 0 34px; }
+
+  /* Best sellers */
+  .bestsellers-head { text-align: center; padding: 34px 34px 6px; }
+  .bestsellers-head h2 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 600;
+    font-size: 22px;
+    color: var(--gold);
+    margin: 0;
+  }
+  .products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    padding: 18px 34px 6px;
+  }
+  .product { text-align: center; }
+  .product-thumb {
+    aspect-ratio: 1;
+    border-radius: 12px;
+    background: var(--surface-alt);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  .product-thumb svg { width: 44%; height: 44%; color: var(--green-sage); }
+  .product-name { font-family: 'Fraunces', Georgia, serif; font-weight: 600; font-size: 14px; margin-bottom: 10px; text-wrap: balance; }
+  .mini-cta {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--green-deep);
+    background: var(--surface-alt);
+    padding: 7px 12px;
+    border-radius: 999px;
+  }
+
+  footer {
+    padding: 34px 34px 38px;
+    text-align: center;
+  }
+  footer .tagline {
+    font-family: 'Fraunces', Georgia, serif;
+    font-style: italic;
+    font-size: 15.5px;
+    color: var(--green-deep);
+    margin-bottom: 14px;
+  }
+  footer .links { font-size: 12.5px; color: var(--ink-soft); }
+  footer .links a { color: var(--ink-soft); text-decoration: underline; text-underline-offset: 2px; }
+
+  @media (max-width: 480px) {
+    .products { grid-template-columns: 1fr; }
+    .email-body, section.block, footer, .bestsellers-head { padding-left: 22px; padding-right: 22px; }
+    h1.hero { font-size: 23px; }
+  }
+
+  /* ---- To-confirm panel, outside the email ---- */
+  .confirm-panel {
+    width: 100%;
+    max-width: 640px;
+    background: var(--surface);
+    border: 1px dashed var(--green-pale);
+    border-radius: 14px;
+    padding: 20px 24px;
+  }
+  .confirm-panel h3 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--gold);
+    margin: 0 0 10px;
+  }
+  .confirm-panel ul { margin: 0; padding-left: 18px; font-size: 13.5px; color: var(--ink-soft); line-height: 1.7; }
+</style>
+
+<div class="page-label">Aperçu newsletter · <strong>Les Paillettes Vertes</strong> · Août 2026</div>
+
+<div class="email">
+  <div class="inbox-bar">
+    <div class="inbox-row"><span class="inbox-tag">Objet</span><span class="inbox-subject">🍂 -20% sur tout le site — c'est le moment de faire le plein !</span></div>
+    <div class="inbox-row"><span class="inbox-tag">Aperçu</span><span class="inbox-preview">+ -25% sur nos best-sellers solides, et une bonne nouvelle : on est de retour dans vos offices de poste 🌿</span></div>
+  </div>
+
+  <div class="email-body">
+    <p class="greeting-eyebrow">Les Paillettes Vertes</p>
+    <h1 class="hero">Le meilleur moment pour faire vos achats chez Les&nbsp;Paillettes&nbsp;Vertes !</h1>
+    <p class="greeting">Chères clientes, chers clients, 🌿</p>
+  </div>
+
+  <!-- BLOC 1 — Hello Autumn -->
+  <section class="block">
+    <div class="sale-row">
+      <div class="sale-badge">-20%<span>tout le site</span></div>
+      <h2 class="block-title" style="max-width: 22ch;">Hello Autumn SALE 🍂</h2>
+    </div>
+    <p>On a le plaisir de vous annoncer notre grande vente <strong>Hello Autumn</strong> : profitez de <strong>-20% sur tout le site</strong> ! L'occasion parfaite d'essayer tous nos produits et de voir à quel point il est simple d'adopter un mode de vie plus responsable.</p>
+    <p class="soft">De nos matières premières — pour vos DIY maison (lessive, savon, ou tout autre projet éco que vous avez en tête) — à notre gamme de soins HARMONY, dont nous sommes si fières. Belle découverte, et bons achats !</p>
+    <a class="cta" href="#">J'en profite →</a>
+  </section>
+
+  <hr class="div" />
+
+  <!-- BLOC 2 — Post offices -->
+  <section class="block" style="padding-top: 40px;">
+    <div class="block-head">
+      <div class="block-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" style="color: var(--green-sage);"><path d="M12 21s7-6.4 7-12a7 7 0 1 0-14 0c0 5.6 7 12 7 12Z"/><circle cx="12" cy="9" r="2.4"/></svg>
+      </div>
+      <h2 class="block-title">On est de retour dans vos offices de poste !</h2>
+    </div>
+    <p>Autant on aime le shopping en ligne, autant on sait à quel point c'est parfois important de voir le produit en vrai — ou d'avoir l'article tout de suite, sans attendre la livraison.</p>
+    <p class="soft">Nous sommes une petite marque locale — être présents dans les offices de poste est une vraie fierté pour nous. On espère que vous aussi, vous l'apprécierez !</p>
+    <div class="locations">
+      <div class="location-row">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12l5 5L20 7"/></svg>
+        <div><span class="loc-name">Offices de poste partenaires</span><br/>Retrouvez la liste complète sur notre site.</div>
+      </div>
+      <div class="location-row">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-5.5-7-11a7 7 0 1 1 14 0c0 5.5-7 11-7 11Z"/></svg>
+        <div><span class="loc-name">CHUV, Lausanne</span><br/>Nos produits sont disponibles à la boutique de fleurs.</div>
+      </div>
+    </div>
+    <div style="height: 22px;"></div>
+    <a class="cta ghost" href="#">Voir les points de vente →</a>
+  </section>
+
+  <hr class="div" />
+
+  <!-- BLOC 3 — Solid essentials -->
+  <section class="block" style="padding-top: 40px;">
+    <div class="sale-row">
+      <div class="sale-badge" style="background: var(--gold);">-25%<span>essentiels solides</span></div>
+      <h2 class="block-title" style="max-width: 22ch;">Nos essentiels solides, à prix doux</h2>
+    </div>
+    <p>On vous entend, et on voit de plus en plus de personnes revenir aux cosmétiques solides. Et on comprend pourquoi :</p>
+    <ul class="checks">
+      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12l5 5L20 7"/></svg><span><b>Zéro limite de 100 ml</b> — ils voyagent librement, en cabine comme au quotidien.</span></li>
+      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12l5 5L20 7"/></svg><span><b>Zéro fuite</b> — fini le flacon qui coule au fond du sac.</span></li>
+      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12l5 5L20 7"/></svg><span><b>Légers et compacts</b> — un galet remplace jusqu'à 2-3 flacons liquides.</span></li>
+      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12l5 5L20 7"/></svg><span><b>Formule concentrée</b> — sans eau (ou presque), nos solides ont naturellement besoin de moins de conservateurs. Plus simple, plus doux pour la peau.</span></li>
+      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12l5 5L20 7"/></svg><span><b>100% naturels et zéro déchet</b> — sans plastique, sans emballage superflu.</span></li>
+    </ul>
+    <p class="soft">Et pour les curieux et curieuses de nos habitudes de voyage : dentifrice en poudre Charbon &amp; Menthe Verte, déodorant naturel Citron Tea Tree, baume à lèvres Douceur Vanille, et nos savons &amp; shampoings solides — les mêmes stars qui composent aujourd'hui notre sélection à -25% !</p>
+    <div class="callout"><strong>💚 Un petit bonus qui a du sens :</strong> vos commandes sont préparées avec soin par les personnes de l'institution Eben-Hézer — chaque achat soutient aussi l'inclusion.</div>
+    <p><strong>-25% sur nos best-sellers solides — savons, shampoings et dentifrice en poudre — jusqu'à fin septembre !</strong></p>
+    <a class="cta" href="#">Je découvre la sélection solide →</a>
+  </section>
+
+  <hr class="div" />
+
+  <!-- BLOC 4 — Eben-Hézer basket donation -->
+  <section class="block" style="padding-top: 40px;">
+    <div class="block-head">
+      <div class="block-icon" style="background: var(--green-pale);">
+        <svg viewBox="0 0 24 24" fill="none" stroke="var(--green-deep)" stroke-width="1.8"><path d="M12 20.5s-7.5-4.7-7.5-10.2A4.8 4.8 0 0 1 12 7a4.8 4.8 0 0 1 7.5 3.3c0 5.5-7.5 10.2-7.5 10.2Z"/></svg>
+      </div>
+      <h2 class="block-title">Envie d'aller encore plus loin ?</h2>
+    </div>
+    <p>Chaque achat chez Les Paillettes Vertes soutient déjà l'inclusion, grâce à nos commandes préparées par l'institution <strong>Eben-Hézer</strong>. Mais on voulait vous donner la possibilité d'aller plus loin, si le cœur vous en dit 💚</p>
+    <p class="soft">Depuis votre panier, au moment de finaliser votre commande, vous pouvez désormais <strong style="color: var(--ink); font-weight: 600;">faire un don directement à Eben-Hézer</strong> — l'intégralité du montant leur est reversée. Construire une communauté qui partage nos valeurs, ça passe aussi par des petits gestes comme celui-ci. Merci d'en faire partie 🌿</p>
+  </section>
+
+  <hr class="div" />
+
+  <!-- Best sellers reminder -->
+  <div class="bestsellers-head"><h2>⭐ Nos best-sellers</h2></div>
+  <div class="products">
+    <div class="product">
+      <div class="product-thumb"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="7" y="9" width="10" height="11" rx="2"/><path d="M9 9V6a3 3 0 0 1 6 0v3"/></svg></div>
+      <div class="product-name">Déodorant Naturel</div>
+      <span class="mini-cta">Voir le produit</span>
+    </div>
+    <div class="product">
+      <div class="product-thumb"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 3v6M8 6l4 3 4-3"/><circle cx="12" cy="15" r="6"/></svg></div>
+      <div class="product-name">Pastilles WC</div>
+      <span class="mini-cta">Voir le produit</span>
+    </div>
+    <div class="product">
+      <div class="product-thumb"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M6 10c0-2 2-3 6-3s6 1 6 3-2 8-6 8-6-6-6-8Z"/></svg></div>
+      <div class="product-name">Cake Vaisselle Solide</div>
+      <span class="mini-cta">Voir le produit</span>
+    </div>
+  </div>
+
+  <footer>
+    <p class="tagline">On n'achète pas plus, on achète mieux.</p>
+    <p class="links">lespaillettesvertes.ch · <a href="#">Instagram</a> · <a href="#">se désabonner</a></p>
+  </footer>
+</div>
+
+<div class="confirm-panel">
+  <h3>✅ À confirmer avant l'envoi</h3>
+  <ul>
+    <li>Lien vers la liste des offices de poste (Bloc 2)</li>
+    <li>Date exacte de fin de l'offre -25% (indiquée : « fin septembre »)</li>
+    <li>Cumul possible entre -20% (site) et -25% (solides) — à préciser si besoin</li>
+  </ul>
+</div>
