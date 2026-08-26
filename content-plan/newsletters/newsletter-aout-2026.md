@@ -2,13 +2,14 @@
 NEWSLETTER — AOÛT 2026
 Les Paillettes Vertes · Mailchimp campaign
 Ready to paste block-by-block into your Mailchimp editor (matches the "TEXT" block style in your screenshot).
-⚠️ Placeholders to fill before sending: [lien liste des points de vente], [date de fin -25%: confirmée "fin septembre"]
+⚠️ Placeholders to fill before sending: [lien liste des points de vente]
+⚠️ UPDATE : l'offre -25% dédiée aux essentiels solides est annulée. Seule la vente Hello Autumn (-20% sur tout le site) reste en vigueur — elle couvre aussi les savons et shampoings solides. Le Bloc 3 est désormais un bloc "coup de projecteur produit" (sans pourcentage propre), pas une offre séparée.
 -->
 
 ## 📧 Objet & aperçu (subject line + preview text)
 
 **Objet (FR) :** 🍂 -20% sur tout le site — c'est le moment de faire le plein !
-**Aperçu :** + -25% sur nos best-sellers solides, et une bonne nouvelle : on est de retour dans vos offices de poste 🌿
+**Aperçu :** Savons, shampoings solides et bien plus — et une bonne nouvelle : on est de retour dans vos offices de poste 🌿
 
 *(Alternative plus courte si vous testez en A/B : « 🍂 Hello Autumn : -20% sur tout le site »)*
 
@@ -58,21 +59,20 @@ Pour ces raisons (et bien d'autres), on a rapproché nos produits de chez vous, 
 
 ---
 
-## 🌿 BLOC 3 — Offre spéciale : -25% sur nos essentiels solides
+## 🌿 BLOC 3 — Zoom sur nos savons & shampoings solides
 
 ### Titre de bloc
-🌿 -25% sur nos essentiels solides
+🌿 Nos savons & shampoings solides
 
 ### Corps de texte
 On vous entend, et on voit de plus en plus de personnes revenir aux cosmétiques solides. Et on comprend pourquoi :
 
 ✅ **Zéro limite de 100 ml, zéro fuite** — ils voyagent librement, en cabine comme au quotidien.
 ✅ **Légers, compacts, concentrés** — un galet remplace jusqu'à 2-3 flacons liquides.
-✅ **100% naturels et zéro déchet** — sans plastique, sans emballage superflu.
 
-💚 **Petit bonus qui a du sens :** vos commandes sont préparées avec soin par les personnes de l'institution **Eben-Hézer** — chaque achat soutient aussi l'inclusion.
+🌿 **Des ingrédients qu'on peut nommer** — huile de coco, beurre de karité, huile d'olive... nos savons et shampoings solides sont formulés avec des ingrédients naturels et biologiques, au pH pensé pour respecter l'équilibre de votre peau et de votre cuir chevelu — sans huile de palme, ni parabènes, ni colorants synthétiques.
 
-**-25% sur nos savons et shampoings solides, ainsi que sur le [Dentifrice Charbon & Menthe Verte](https://www.lespaillettesvertes.ch/produit/dentifrice-charbon-menthe-verte/) — jusqu'à [fin septembre] !**
+Comme tout le site, ils font partie de la vente Hello Autumn à **-20%** 🍂
 
 ### Bouton CTA
 👉 **Je découvre la sélection solide** → lespaillettesvertes.ch
@@ -112,5 +112,4 @@ Merci de faire partie de l'aventure Les Paillettes Vertes 🌿
 
 ## ✅ À confirmer avant envoi
 - Lien vers la liste des offices de poste (Bloc 2)
-- Date exacte de fin de l'offre -25% (vous avez indiqué « jusqu'à fin septembre »)
-- Si "Hello Autumn SALE" (-20%) et l'offre solide (-25%) sont cumulables ou non — à préciser dans un des deux blocs si besoin
+- Date de fin de la vente Hello Autumn (-20%), si vous voulez créer de l'urgence dans le mail
