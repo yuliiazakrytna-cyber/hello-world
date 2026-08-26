@@ -85,11 +85,11 @@ Comme tout le site, ils font partie de la vente Hello Autumn à **-20%** 🍂
 💛 Envie d'aller encore plus loin ?
 
 ### Corps de texte
-Chaque achat chez Les Paillettes Vertes soutient déjà l'inclusion, grâce à nos commandes préparées par l'institution **Eben-Hézer**. Mais on voulait vous donner la possibilité d'aller plus loin, si le cœur vous en dit 💚
+Chaque commande chez Les Paillettes Vertes fait déjà une différence : elle est préparée avec soin par les personnes de l'institution **Eben-Hézer**, qui œuvre pour l'inclusion au quotidien.
 
-Depuis votre panier, au moment de finaliser votre commande, vous pouvez désormais **faire un don directement à Eben-Hézer** — l'intégralité du montant leur est reversée.
+Envie d'aller plus loin ? Au moment de valider votre panier, vous pouvez désormais **ajouter un don**, versé intégralement à Eben-Hézer 💛
 
-Construire une communauté qui partage nos valeurs, ça passe aussi par des petits gestes comme celui-ci. Merci d'en faire partie 🌿
+Un petit geste de plus, pour une communauté qui avance ensemble. Merci d'en faire partie 🌿
 
 ### Bouton CTA
 👉 **Je découvre la sélection solide** → lespaillettesvertes.ch
