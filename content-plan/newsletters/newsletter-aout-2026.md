@@ -66,17 +66,13 @@ Pour ces raisons (et bien d'autres), on a rapproché nos produits de chez vous, 
 ### Corps de texte
 On vous entend, et on voit de plus en plus de personnes revenir aux cosmétiques solides. Et on comprend pourquoi :
 
-✅ **Zéro limite de 100 ml** — ils voyagent librement, en cabine comme au quotidien.
-✅ **Zéro fuite** — fini le flacon qui coule au fond du sac ou de la valise.
-✅ **Légers et compacts** — un galet remplace jusqu'à 2-3 flacons liquides.
-✅ **Formule concentrée = moins de conservateurs** — sans eau (ou presque), un cosmétique solide a naturellement besoin de moins d'agents conservateurs qu'un liquide. Plus simple, plus doux pour la peau.
-✅ **100% naturels et zéro déchet** — sans plastique, sans emballage superflu, juste l'essentiel.
+✅ **Zéro limite de 100 ml, zéro fuite** — ils voyagent librement, en cabine comme au quotidien.
+✅ **Légers, compacts, concentrés** — un galet remplace jusqu'à 2-3 flacons liquides.
+✅ **100% naturels et zéro déchet** — sans plastique, sans emballage superflu.
 
-Et pour les curieux et curieuses de nos habitudes de voyage, on partageait récemment nos indispensables pour une trousse de toilette zéro tracas ✈️ — dentifrice en poudre Charbon & Menthe Verte, déodorant naturel Citron Tea Tree, baume à lèvres Douceur Vanille, et nos savons & shampoings solides (Menthe & Eucalyptus, Bois de Santal et Patchouli, Lavande & Tea Tree). Les mêmes stars qui font aujourd'hui notre sélection solide à -25% !
+💚 **Petit bonus qui a du sens :** vos commandes sont préparées avec soin par les personnes de l'institution **Eben-Hézer** — chaque achat soutient aussi l'inclusion.
 
-💚 **Petit bonus qui a du sens :** vos commandes sont préparées avec soin par les personnes de l'institution **Eben-Hézer** — chaque achat soutient aussi l'inclusion 💛.
-
-**Profitez de -25% sur nos best-sellers solides — savons, shampoings et dentifrice en poudre — jusqu'à [fin septembre] !**
+**-25% sur nos savons et shampoings solides, ainsi que sur le [Dentifrice Charbon & Menthe Verte](https://www.lespaillettesvertes.ch/produit/dentifrice-charbon-menthe-verte/) — jusqu'à [fin septembre] !**
 
 ### Bouton CTA
 👉 **Je découvre la sélection solide** → lespaillettesvertes.ch
